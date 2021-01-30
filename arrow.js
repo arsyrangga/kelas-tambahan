@@ -6,7 +6,7 @@ function myfunction() {
 
 function welcome(event){
     event.preventDefault
-    alert("selamat datang" + event.target.name.value)
+    alert("selamat datang " + event.target.name.value)
 }
 
 const myfunctions = () =>{
