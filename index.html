@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <meta name="description" content="Kelas tambahan static HTML Rangga">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>Kelas Tambahan Static HTML</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbarLeft">
+            <img src="./logo192.png" alt="" class="brand">
+            <h1>RANGGA</h1>
+        </div>
+        <div class="navbarRight">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+                <li>GALLERY</li>
+            </ul>
+            <form action="">
+                <input type="search" placeholder="search"
+                class="searchNav">
+                <i class="fas fa-search"></i>
+            
+            </form>
+        </div>
+    </nav>
+
+    <main class="container">
+        <img src="https://picsum.photos/seed/150/900" alt="">
+        <h1>HOME</h1>
+        <button onclick="myfunctions()">ALERT</button>
+    </main>
+
+    <form onsubmit="wellcome(event)" class="lot">
+        <input type="text" id="name"
+        name="name"
+        placeholder="Masukkan Nama"
+        >
+        <button type="submit">Process</button>
+    </form>
+
+    <script src="arrow.js"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+</html>
